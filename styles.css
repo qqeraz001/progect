@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(211, 154, 255, 0.72) 0%,
+    rgba(33, 180, 243, 0.72) 100%
+  );
+}
+
+.header-wrapper {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(48, 29, 53);
+  text-transform: uppercase;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.header-wrapper img {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_wrapper {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 400px;
+  background: linear-gradient(180deg, #183e20 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+article {
+  margin-top: 40px;
+}
+.titles article h2,
+.titles article p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.titles article h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.section_wrapper img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* 
+.custom-btn {
+  width: 70px;
+  height: 70px;
+  border: 0;
+  background-image: url("./image/icons8-stich.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+} */
+.footer_wrapper {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.footer_wrapper p {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.section-with-image {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.section-with-image img {
+  width: 100%;
+  margin: 0 auto;
+}
+.section-with-image p {
+  text-align: center;
+}
